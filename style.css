@@ -99,8 +99,30 @@ svg{
 
 
 /* mobilwe view*/
-@media screen and (min-width: 378px) {
-  
+@media (min-width: 5px) {
+  /* Styles for mobile devices */
+  body {
+    font-size: 14px;
+  }
+  .mobile-img {
+    display: block;
+  }
+  .desktop-img {
+    display: none;
+  }
+}
+
+@media (min-width: 560px) {
+  /* Styles for desktop devices */
+  body {
+    font-size: 16px;
+  }
+  .mobile-img {
+    display: none;
+  }
+  .desktop-img {
+    display: block;
+  }
 }
 
 

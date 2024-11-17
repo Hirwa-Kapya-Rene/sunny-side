@@ -32,8 +32,14 @@
     </div>
 
     <div>
-      <img class="bg-img"  src="image/img1.jpg" alt="" class="mobile-img" >
-      <img src="image/image-transform.jpg" alt="" class="desktop">
+      <picture>
+        <source media="(max-width: 440px)" srcset="mobile-image.jpg">
+        <img class="bg-img"  src="image/img1.jpg" alt="" class="mobile-img" >
+      </picture>
+      <picture>
+        <source media="(min-width: 768px)" srcset="mobile-image.jpg">
+        <img src="image/image-transform.jpg" alt="" class="desktop">
+      </picture>
       <div>
         <h2>Transform your brand</h2>
         <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you </p>
@@ -42,8 +48,14 @@
     </div>
 
     <div>
-      <img class="bg-img"  src="image/img2.jpg" alt="" class="mobile-img" >
-      <img src="image/image-stand-out.jpg" alt="" class="desktop">
+      <picture>
+        <source media="(max-width: 768px)" srcset="mobile-image.jpg">
+        <img class="bg-img"  src="image/img2.jpg" alt="" class="mobile-img">
+      </picture>
+      <picture>
+        <source media="(max-width: 768px)" srcset="mobile-image.jpg">
+        <img src="image/image-stand-out.jpg" alt="" class="desktop">
+      </picture>
       <div>
         <h3>Stand out to the right audience</h3>
         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
